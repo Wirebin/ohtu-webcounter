@@ -3,7 +3,7 @@ Library  SeleniumLibrary
 
 *** Variables ***
 ${SERVER}    localhost:5001
-${DELAY}     0.5 seconds
+${DELAY}     0.3 seconds
 ${HOME_URL}  http://${SERVER}
 ${BROWSER}   chrome
 ${HEADLESS}  false

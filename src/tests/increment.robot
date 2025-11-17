@@ -6,6 +6,7 @@ Suite Teardown  Close Browser
 *** Test Cases ***
 At start the counter is zero
     Go To  ${HOME_URL}
+    Click Button  Nollaa
     Title Should Be  Laskuri
     Page Should Contain  nappia painettu 0 kertaa
 

@@ -20,6 +20,7 @@ def reset():
 
 @app.route("/set", methods=["POST"])
 def set():
-    value = request.form["value_set"]
-    cnt.set(value)
+    value = request.form["value"]
+    if value.isdigit():
+        cnt.set(int(value))
     return redirect("/")
